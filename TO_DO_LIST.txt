@@ -1,0 +1,93 @@
+﻿to do list
+
+
+Menü düzenlemesi DONE
+Menü: Dashboard Hesabım altına Takvimim gelcek. DONE
+Program -> Eğitime başla olcak   DONE
+
+———
+Seçim kısmı
+Seçmeden önce araya zaman DONE
+ iptal için de zaman
+Eğer vakit az ise, eğitim koordinatörüyle konuşun mesajı çıksın. // Yazı çıkıyor, yazı editlencek.
+
+
+Popup devam olucak DONE
+——
+
+dashboard 6 haftaya kadar göstericek..
+Otomatik rezervasyon yaratıldığında (4 hafta) Dashboardda 1 rezervasyon gibi görünüyor. DONE
+—
+Katılım
+Diğer katılımcılar admin olmayanlara görünmicek. DONE
+
+bütün durumlarda iptal kalkcak. DONE
+
+Takvim
+göremediği gruplar müsait değil olarak çıkacak. // DONE
+
+— Rezervasyon yaratımı:
+
+Otomatik 4 hafta.
+
+-6 Hafta olacak. (2 telafi).-
+---
+Program
+Saat aralıkları
+9-12 eğitimi için
+9:00am olarak değil 09.00 - 12.00
+
+12.30-15.30
+15.30-18.30
+18.30-20.30
+Çok zor. En son bakarız..
+----
+Manage Reservations
+
+Katılımcılar için Kolon uzunlugu arttılacak. Done
+
+--
+Saatle takvim rengi farklı olarak değişecek. DONE.
+
+Kişilerin gruplarına göre admin panelinde takibi yapılacak. (Başlangıç tarihi, eğitim günü/ saati kullanıcalara eklenecek ve ona göre gruplanacak).
+(Additional attributeler eklendi).
+
+userları filtrelemek.
+(Bütün özelliklerine göre filtreler eklencek.)
+
+------7 Eylül
+
+--REgistera js. DONE
+
+Katıl dendiğinde eğitime katılmadıysa daha önce ( yani ilk eğitim saati boş ise) ve para ödemediyse (yani kredisi yoksa) katıl dendiğinde invitee liste katılcak. DONE
+Parası varsa direk katılcak. DONE
+İlk eğitm saati dolu ve parası yoksa zaten göremicek. DONE
+
+Davetliler -> Bekleyenler. DONE
+
+Tekne dolduğunda. Diğer kaynakta aynı saat boş ise. Diğer kaynağa tarafa bekleyenleri kaydır. ANOTHER SOLUTİON
+
+Takvim başlangıcı 17-21 ekim. DONE
+
+REgister'a eğitim şartnamesi. DONE
+
+
+Menü sıralaması.
+-- Eğitime Başka, eğitim panelim, hesabım. done
+
+
+-- BUG
+
+reservation label'ın config ile bağlantılı custom attribute kısmı çalışmıyor. Manuel implementasyon gerekiyor ( IReservationSlot, ReservationSlot, BufferSlot, EmptyReservationSlot, BlackoutSlot. $Slot->GetAttributeId(int x);
+
+-------
+
+Eğitim koordinatörü yazdığında adama üzerine gelince (hover) numara versin.
+Ödeme ile ilgili de eğitim koordinatörü ile konuşun.
+
+Schedule renkleri: Mavi->uçuk yeşil
+
+Üst biraz koyu
+Beyaza yakın gri
+
+Genel olarak renkler soluk.
